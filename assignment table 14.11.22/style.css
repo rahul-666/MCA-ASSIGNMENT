@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Main Data Table */
+.mainTable{
+	text-align: center;
+	margin-top: 10px;
+}
+#table{
+	margin: 5px auto;
+}
+table tr:not(:first-child){
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+}
+table tr:not(:first-child):hover{
+	background-color: #ddd;
+}
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
